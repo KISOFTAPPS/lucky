@@ -4,6 +4,7 @@ import bg2 from "../../../assets/img/bg-2.jpg";
 import { GiRefinery } from "react-icons/gi";
 import { FiPackage, FiTruck } from "react-icons/fi";
 import { GrStorage } from "react-icons/gr";
+import {BiRightArrow} from "react-icons/bi"
 
 export const Section2 = () => {
     return (
@@ -26,21 +27,22 @@ export const Section2 = () => {
                 </p>
 
                 <div className="flex items-center gap-1">
+
                     <div className="flex flex-col items-center">
                         <GiRefinery className="text-8xl text-black hover:scale-110 duration-200" />
                         Refinery
                     </div>
-
+                    <BiRightArrow className="text-8xl hover:scale-110 duration-200"/>
                     <div className="flex flex-col items-center">
                         <FiPackage className="text-8xl text-black hover:scale-110 duration-200" />
                         Distribution Logistics
                     </div>
-
+                    <BiRightArrow className="text-8xl hover:scale-110 duration-200"/>
                     <div className="flex flex-col items-center">
                         <GrStorage className="text-8xl text-black hover:scale-110 duration-200" />
                         Storage Terminals
                     </div>
-
+                    <BiRightArrow className="text-8xl hover:scale-110 duration-200"/>
                     <div className="flex flex-col items-center">
                         <FiTruck className="text-8xl text-black hover:scale-110 duration-200" />
                         Costumer Load
