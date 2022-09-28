@@ -6,17 +6,17 @@ export const Section4 = () => {
     return (
         <section
             id="contact_us"
-            className="min-h-screen w-full flex justify-center"
+            className="min-h-screen w-full flex flex-col md:flex-row justify-center"
         >
             <div
-                className="w-7/12"
+                className="w-96 h-96 md:w-7/12 md:h-auto"
                 style={{
                     backgroundImage: `url(${bg3})`,
                     backgroundSize: "cover",
                 }}
             ></div>
-            <div className="w-5/12 flex flex-col justify-center items-center">
-                <div className="h-1/2 flex flex-col justify-center items-center gap-2">
+            <div className="md:w-5/12 flex flex-col justify-center items-center p-5">
+                <div className="flex flex-col justify-center items-center gap-2">
                     <span>LET'S REACH MORE ACHIEVEMENTS</span>
                     <hr className="bg-black w-full" />
                     <div>
@@ -38,9 +38,7 @@ export const Section4 = () => {
                         <p>+1 210 793 6001</p>
                     </div>
                 </div>
-                <div className="h-1/2">
-                    <Map />
-                </div>
+
             </div>
         </section>
     );

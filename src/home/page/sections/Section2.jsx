@@ -4,53 +4,56 @@ import bg2 from "../../../assets/img/bg-2.jpg";
 import { GiRefinery } from "react-icons/gi";
 import { FiPackage, FiTruck } from "react-icons/fi";
 import { GrStorage } from "react-icons/gr";
-import {BiRightArrow} from "react-icons/bi"
+import { BiRightArrow } from "react-icons/bi";
 
 export const Section2 = () => {
     return (
         <section
             id="our_process"
-            className="min-h-screen w-full flex justify-center "
+            className="min-h-screen w-full flex flex-col md:flex-row justify-center "
         >
-            <div className="flex flex-col justify-center items-center gap-5 shadow-xl w-8/12 p-5 text-green-900 bg-green-50">
+            <div className="flex flex-col justify-center items-center gap-5 shadow-xl w-full md:w-8/12 p-5 text-green-900 bg-green-50">
                 <img src={logo2} className="w-48 rounded-xl" />
                 <div className="font-bold text-4xl w-72 text-center">
                     <span>OUR PROCESS</span>
                     <hr />
                 </div>
 
-                <p className="w-96 font-semibold text-justify">
+                <p className="md:w-96 font-semibold text-justify">
                     Business alliances are key to the success of the Trust's
                     operations. The company is committed to providing its
                     partners with reliable supplies directly from U.S.
                     refineries.
                 </p>
 
-                <div className="flex items-center gap-1">
-
-                    <div className="flex flex-col items-center">
-                        <GiRefinery className="text-8xl text-black hover:scale-110 duration-200" />
-                        Refinery
+                <div className="flex flex-col md:flex-row items-center gap-1">
+                    <div className="flex">
+                        <div className="flex flex-col items-center">
+                            <GiRefinery className="text-5xl md:text-8xl text-black hover:scale-110 duration-200" />
+                            Refinery
+                        </div>
+                        <BiRightArrow className="text-5xl  md:text-8xl hover:scale-110 duration-200" />
+                        <div className="flex flex-col items-center">
+                            <FiPackage className="text-5xl  md:text-8xl text-black hover:scale-110 duration-200" />
+                            Distribution Logistics
+                        </div>
+                        <BiRightArrow className="text-5xl md:text-8xl hover:scale-110 duration-200" />
                     </div>
-                    <BiRightArrow className="text-8xl hover:scale-110 duration-200"/>
-                    <div className="flex flex-col items-center">
-                        <FiPackage className="text-8xl text-black hover:scale-110 duration-200" />
-                        Distribution Logistics
-                    </div>
-                    <BiRightArrow className="text-8xl hover:scale-110 duration-200"/>
-                    <div className="flex flex-col items-center">
-                        <GrStorage className="text-8xl text-black hover:scale-110 duration-200" />
-                        Storage Terminals
-                    </div>
-                    <BiRightArrow className="text-8xl hover:scale-110 duration-200"/>
-                    <div className="flex flex-col items-center">
-                        <FiTruck className="text-8xl text-black hover:scale-110 duration-200" />
-                        Costumer Load
+                    <div className="flex">
+                        <div className="flex flex-col items-center">
+                            <GrStorage className="text-5xl md:text-8xl text-black hover:scale-110 duration-200" />
+                            Storage Terminals
+                        </div>
+                        <BiRightArrow className="text-5xl md:text-8xl hover:scale-110 duration-200" />
+                        <div className="flex flex-col items-center">
+                            <FiTruck className="text-5xl md:text-8xl text-black hover:scale-110 duration-200" />
+                            Costumer Load
+                        </div>
                     </div>
                 </div>
             </div>
             <div
-                className="w-4/12"
+                className="w-96 h-96 md:w-4/12 md:h-auto"
                 style={{
                     backgroundImage: `url(${bg2})`,
                     backgroundSize: "cover",
