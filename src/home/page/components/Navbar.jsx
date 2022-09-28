@@ -6,7 +6,7 @@ export const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 w-full h-12 md:h-20 flex justify-between items-center px-5 drop-shadow-xl bg-green-50 z-10">
             <Link
-                to="ct_cloud"
+                to="about_us"
                 spy={true}
                 smooth={200}
                 duration={500}
