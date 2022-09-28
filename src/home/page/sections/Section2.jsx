@@ -1,10 +1,9 @@
 import React from "react";
 import logo2 from "../../../assets/img/logo-2.png";
 import bg2 from "../../../assets/img/bg-2.jpg";
-import { GiRefinery} from "react-icons/gi";
+import { GiRefinery } from "react-icons/gi";
 import { FiPackage, FiTruck } from "react-icons/fi";
 import { GrStorage } from "react-icons/gr";
-import { MdArrowForwardIos } from "react-icons/Md";
 
 export const Section2 = () => {
     return (
@@ -31,17 +30,17 @@ export const Section2 = () => {
                         <GiRefinery className="text-8xl text-black hover:scale-110 duration-200" />
                         Refinery
                     </div>
-                    <MdArrowForwardIos className="text-8xl hover:scale-110 duration-200" />
+
                     <div className="flex flex-col items-center">
                         <FiPackage className="text-8xl text-black hover:scale-110 duration-200" />
                         Distribution Logistics
                     </div>
-                    <MdArrowForwardIos className="text-8xl hover:scale-110 duration-200" />
+
                     <div className="flex flex-col items-center">
                         <GrStorage className="text-8xl text-black hover:scale-110 duration-200" />
                         Storage Terminals
                     </div>
-                    <MdArrowForwardIos className="text-8xl hover:scale-110 duration-200" />
+
                     <div className="flex flex-col items-center">
                         <FiTruck className="text-8xl text-black hover:scale-110 duration-200" />
                         Costumer Load
