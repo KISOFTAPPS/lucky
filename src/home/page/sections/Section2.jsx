@@ -1,7 +1,7 @@
 import React from "react";
 import logo2 from "../../../assets/img/logo-2.png";
 import bg2 from "../../../assets/img/bg-2.jpg";
-import { GiRefinery, GiTruck } from "react-icons/gi";
+import { GiRefinery} from "react-icons/gi";
 import { FiPackage, FiTruck } from "react-icons/fi";
 import { GrStorage } from "react-icons/gr";
 import { MdArrowForwardIos } from "react-icons/Md";
