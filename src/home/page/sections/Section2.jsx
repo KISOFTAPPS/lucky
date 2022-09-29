@@ -10,9 +10,9 @@ export const Section2 = () => {
     return (
         <section
             id="our_process"
-            className="min-h-screen w-full flex flex-col md:flex-row justify-center "
+            className="min-h-screen w-full flex flex-col md:flex-row justify-center bg-green-50 pt-16 md:pt-0"
         >
-            <div className="flex flex-col justify-center items-center gap-5 shadow-xl w-full md:w-8/12 p-5 text-green-900 bg-green-50">
+            <div className="flex flex-col justify-center items-center gap-5 shadow-xl w-full md:w-8/12 p-5 text-green-900">
                 <img src={logo2} className="w-48 rounded-xl" />
                 <div className="font-bold text-4xl w-72 text-center">
                     <span>OUR PROCESS</span>
@@ -20,10 +20,10 @@ export const Section2 = () => {
                 </div>
 
                 <p className="md:w-96 font-semibold text-justify">
-                    Business alliances are key to the success of the Trust's
-                    operations. The company is committed to providing its
-                    partners with reliable supplies directly from U.S.
-                    refineries.
+                    By participating in a major part of the entire supply chain
+                    and by maintaining commercial partnerships and alliances
+                    with trustworthy associates we provide reliable supply for
+                    all our clients and partners.
                 </p>
 
                 <div className="flex flex-col md:flex-row items-center gap-1">
