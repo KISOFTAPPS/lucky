@@ -25,7 +25,7 @@ export const Section4 = () => {
                         <p>
                             19230 STONE OAK PKWY STE 102, SAN ANTONIO, TX, 78258
                         </p>
-                        <p>alonso_vh@luckytrg.com</p>
+                        <p>alonso_vh@luckytrgr.com</p>
                         <p>+1 210 748 1007</p>
                     </div>
                     <div>
@@ -34,7 +34,7 @@ export const Section4 = () => {
                         <p>
                             19230 STONE OAK PKWY STE 102, SAN ANTONIO, TX, 78258
                         </p>
-                        <p>japerdomo@luckytrg.com</p>
+                        <p>japerdomo@luckytrgr.com</p>
                         <p>+1 210 793 6001</p>
                     </div>
                 </div>
