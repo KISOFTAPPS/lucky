@@ -12,7 +12,7 @@ export const Section1 = () => {
         >
             <div className="container w-full flex flex-col md:flex-row justify-between items-center bg-green-900 bg-opacity-75 p-5 rounded-xl text-white shadow-xl">
                 <div className="flex flex-col gap-5 p-1">
-                    <samp className=" font-bold text-5xl md:text-7xl  bg-opacity-75 rounded-xl ">
+                    <samp className=" font-bold text-5xl md:text-7xl  bg-opacity-75 rounded-xl  text-center">
                     ¿Do you need <br /> a hand?
                     </samp>
                     <hr />

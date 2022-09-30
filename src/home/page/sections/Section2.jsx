@@ -53,7 +53,7 @@ export const Section2 = () => {
                 </div>
             </div>
             <div
-                className="w-96 h-96 md:w-4/12 md:h-auto"
+                className="w-full h-96 md:w-4/12 md:h-auto"
                 style={{
                     backgroundImage: `url(${bg2})`,
                     backgroundSize: "cover",

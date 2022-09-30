@@ -9,8 +9,8 @@ export const Section3 = () => {
             id="client"
             className="pt-16 md:pt-0 min-h-screen w-full flex flex-col gap-5 justify-center items-center bg-gradient-to-r from-green-200 to-green-900 shadow-xl"
         >
-            <h1 className="text-5xl font-bold">OUR CLIENTS</h1>
-            <hr className="border w-full " />
+            <h1 className="text-5xl">OUR CLIENTS</h1>
+            <hr className="border w-4/5 " />
             <div className="flex flex-col justify-center items-center gap-5 w-full bg-black bg-opacity-70 p-5 shadow-xl">
                 <div className="flex flex-col md:flex-row gap-5 text-green-100">
                     <div className="text-center  font-bold">
