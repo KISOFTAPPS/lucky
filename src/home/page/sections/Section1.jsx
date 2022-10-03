@@ -13,7 +13,9 @@ export const Section1 = () => {
             <div className="container w-full flex flex-col md:flex-row justify-between items-center bg-green-900 bg-opacity-75 p-5 rounded-xl text-white shadow-xl">
                 <div className="flex flex-col gap-5 p-1">
                     <samp className=" font-bold text-5xl md:text-7xl  bg-opacity-75 rounded-xl  text-center">
-                    ¿Do you need <br /> a hand?
+                        Let us help you achieve
+                        <br />
+                        your purpose.
                     </samp>
                     <hr />
                 </div>
@@ -25,10 +27,11 @@ export const Section1 = () => {
                     <hr />
                     <p>
                         We are a global trading company specialized in
-                        hydrocarbons and petroleum derivatives. <br /> The LUCKY team
-                        is built of world class and experienced professionals,
-                        that will make sure that our clients meet all of their
-                        energy needs by offering innovative solutions.
+                        hydrocarbons and petroleum derivatives. <br /> The LUCKY
+                        team is built of world class and experienced
+                        professionals, that will make sure that our clients meet
+                        all of their energy needs by offering innovative
+                        solutions.
                     </p>
                 </div>
             </div>
